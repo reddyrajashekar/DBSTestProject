@@ -58,6 +58,8 @@ public class Flight_Pages {
     @FindBy(xpath = "//a[contains(@class,'ui-state-default ui-state-active')]")
     public static WebElement SelectDate;
 
+    @FindBy(xpath = "//div[@class='closeit']")
+    public static WebElement ClosePopUp;
 
 
     public Flight_Pages(WebDriver driver) {

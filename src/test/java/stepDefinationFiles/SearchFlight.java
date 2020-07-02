@@ -63,6 +63,7 @@ try {
             flight_pages.departure.sendKeys("Thu, 30 Jul, 2020");
           //  flight_pages.CalenderIcon.click();
             flight_pages.SelectDate.click();
+            flight_pages.ClosePopUp.click();
             Thread.sleep(3000);
             flight_pages.SearchFlightBtn.click();
         } catch (NoSuchElementException e) {
